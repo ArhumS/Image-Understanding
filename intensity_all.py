@@ -37,5 +37,5 @@ for I in range (0,lengthl) :
 		if (blur_cur[r][c][0] >= white_px[2] and blur_cur[r][c][1] >= white_px[1] and blur_cur[r][c][2] >= white_px[0] ):
 	    		blur_cur[r][c] = orange_px
     cv2.imwrite(str(name) +'~/intall/intall.png', blur_cur)
-# Part - 2 # Difference label - coding in progress
+# Part - 2 # Difference label - and
 # Part - 3 # Both classes ANDED - coming up next
